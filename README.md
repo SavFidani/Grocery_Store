@@ -26,7 +26,7 @@ H_0:Area and item availability have no impact on sales H_1:Area and item availab
 
 We will reject the null (H_0 ) if our \|t\|\<0.05 which demonstrates our variables are in fact,statistically significant.
 
-## Diagrams
+## Diagrams:
 
 ![ERD](images/QuickDBD-export.png)
 
