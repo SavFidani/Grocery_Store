@@ -51,3 +51,8 @@ Our final step, will be to conceptually visualize these relationships in Tableau
 
 ![image](https://user-images.githubusercontent.com/99941484/183305907-3808debc-42c6-4291-9ffb-c7d2571a522f.png)
 
+
+## Dashboard proposal 
+
+https://public.tableau.com/app/profile/seo.kyoung.shin/viz/Storeproject/Dashboard12
+https://public.tableau.com/app/profile/seo.kyoung.shin/viz/Storeproject2/Dashboard13?publish=yes
