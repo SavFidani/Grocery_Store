@@ -54,5 +54,12 @@ Our final step, will be to conceptually visualize these relationships in Tableau
 
 ## Dashboard proposal 
 
+
+* Tableau generated 
+
 https://public.tableau.com/app/profile/seo.kyoung.shin/viz/Storeproject/Dashboard12
 https://public.tableau.com/app/profile/seo.kyoung.shin/viz/Storeproject2/Dashboard13?publish=yes
+
+* Google Slide 
+
+https://docs.google.com/presentation/d/1cvv16WczGptazqS42H_n3YWct4QVtQ5ZFd2hBGqshiM/edit?usp=sharing
