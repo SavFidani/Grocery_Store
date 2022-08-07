@@ -43,3 +43,11 @@ We will begin with completing a preliminary analysis of our data utilizing Pytho
 Once we have built a regression model in Python, we intend on taking our analysis one step further through R. By using R, we will identify our variable coefficients (β) and their independent significance.
 
 Our final step, will be to conceptually visualize these relationships in Tableau, providing a high level overview of the linkage between space, stock and sales.
+
+
+## Results from Regression Models :
+
+![image](https://user-images.githubusercontent.com/99941484/183305875-5a658c8f-ac6a-4d0c-81ca-6e0f355ba3d6.png)
+
+![image](https://user-images.githubusercontent.com/99941484/183305907-3808debc-42c6-4291-9ffb-c7d2571a522f.png)
+
