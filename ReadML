@@ -1,4 +1,4 @@
-#Data Processing
+ Data Processing
 Data preprocessing, a component of data preparation describes any type of processing performed on raw data to prepare it for another data processing procedure. It has traditionally been an important preliminary step for the data mining process. More recently, data preprocessing techniques have been adapted for training machine learning models and AI models and for running inferences against them. 
 Data processing has been done with the help of following components.
 •	Drop
