@@ -61,8 +61,7 @@ Data processing has been done with the help of following components.
 ## Feature Engineering
 Feature engineering is a machine learning technique that leverages data to create new variables that aren’t in the training set. It can produce new features for both supervised and unsupervised learning, with the goal of simplifying and speeding up data transformations while also enhancing model accuracy. The technique which was used in our model was handling outliers in order to produce more accurate data representation. The data from outliers with the condition of removing no more than 2% of the data volume.
 
-
-## Decision making process is done by Statistics to analyze data and find the problem. One of the way by which it was done:
+Decision making process is done by Statistics to analyze data and find the problem. One of the way by which it was done:
 •	Normal Distribution – The distribution between store area, items available, daily customer, store sales. It showed a normal distribution. The conclusions from the graphs with the growth of the store area, the number of items sold increases. The obvious conclusion is that no one will use the area of the store to accommodate fewer goods.  We are interested in the target indicator - the amount of money earned by the store. There is a slight correlation between store area (products sold) and the amount of money earned. The number of customers does not depend on revenue. For a more complete analysis of stores, there is not enough day of the week variable.
 
 ## Data was split into training and testing sets 
