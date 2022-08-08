@@ -1,0 +1,41 @@
+
+Data Processing
+Data preprocessing, a component of data preparation describes any type of processing performed on raw data to prepare it for another data processing procedure. It has traditionally been an important preliminary step for the data mining process. More recently, data preprocessing techniques have been adapted for training machine learning models and AI models and for running inferences against them. 
+Data processing has been done with the help of following components.
+•	Drop
+•	Info
+•	Describe
+Feature Engineering
+Feature engineering is a machine learning technique that leverages data to create new variables that aren’t in the training set. It can produce new features for both supervised and unsupervised learning, with the goal of simplifying and speeding up data transformations while also enhancing model accuracy. The technique which was used in our model was handling outliers in order to produce more accurate data representation. The data from outliers with the condition of removing no more than 2% of the data volume.
+
+
+Decision making process is done by Statistics to analyze data and find the problem. One of the way by which it was done:
+•	Normal Distribution – The distribution between store area, items available, daily customer, store sales. It showed a normal distribution. The conclusions from the graphs with the growth of the store area, the number of items sold increases. The obvious conclusion is that no one will use the area of the store to accommodate fewer goods.  We are interested in the target indicator - the amount of money earned by the store. There is a slight correlation between store area (products sold) and the amount of money earned. The number of customers does not depend on revenue. For a more complete analysis of stores, there is not enough day of the week variable.
+
+Data was split into training and testing sets 
+We chose this method because it is a fast and easy procedure to perform such that we can compare our own machine learning model results to machine results. By default, the test set is split into 30 % of actual data and the training set is split into 70% of the actual data. 
+X_train, X_test, y_train, y_test=train_test_split(X,y,test_size=0.2,random_state=42)
+
+
+
+
+
+Model Selection
+Resampling methods
+Resampling methods, as the name suggests, are simple techniques of rearranging data samples to inspect if the model performs well on data samples that it has not been trained on. In other words, resampling helps us understand if the model will generalize well.
+K-Fold Cross-Validation
+The cross-validation technique works by randomly shuffling the dataset and then splitting it into k groups. Thereafter, on iterating over each group, the group needs to be considered as a test set while all other groups are clubbed together into the training set. The model is tested on the test group and the process continues for k groups.
+Thus, by the end of the process, one has k different results on k different test groups. The best model can then be selected easily by choosing the one with the highest score.
+Stratified K-Fold
+The process for stratified K-Fold is similar to that of K-Fold cross-validation with one single point of difference – unlike in k-fold cross-validation, the values of the target variable is taken into consideration in stratified k-fold.
+If for instance, the target variable is a categorical variable with 2 classes, then stratified k-fold ensures that each test fold gets an equal ratio of the two classes when compared to the training set.
+This makes the model evaluation more accurate and the model training less biased.
+In this model we chose Mean Absolute Error or MAE
+MAE is the mean of the absolute error values (actuals – predictions).
+ 
+If one wants to ignore the outlier values to a certain degree, MAE is the choice since it reduces the penalty of the outliers significantly with the removal of the square terms.
+
+Current Accuracy Score 
+We chose Liner regression because the current accuracy score is 75% which is way higher than logistic regression. 
+model: LinearRegression()
+MAPE: 25.843888874432857
