@@ -54,9 +54,10 @@ Our final step, will be to conceptually visualize these relationships in Tableau
 ## Data Processing
 Data preprocessing, a component of data preparation describes any type of processing performed on raw data to prepare it for another data processing procedure. It has traditionally been an important preliminary step for the data mining process. More recently, data preprocessing techniques have been adapted for training machine learning models and AI models and for running inferences against them. 
 Data processing has been done with the help of following components.
-# •	Drop
-# •	Info
-# •	Describe
+•	Drop
+•	Info
+•	Describe
+
 ## Feature Engineering
 Feature engineering is a machine learning technique that leverages data to create new variables that aren’t in the training set. It can produce new features for both supervised and unsupervised learning, with the goal of simplifying and speeding up data transformations while also enhancing model accuracy. The technique which was used in our model was handling outliers in order to produce more accurate data representation. The data from outliers with the condition of removing no more than 2% of the data volume.
 
