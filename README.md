@@ -47,7 +47,28 @@ Our final step, will be to conceptually visualize these relationships in Tableau
 
 ## Results from Regression Models :
 
-![image](https://user-images.githubusercontent.com/99941484/183305875-5a658c8f-ac6a-4d0c-81ca-6e0f355ba3d6.png)
+![image](https://user-images.githubusercontent.com/99941484/183843714-c24d6fad-9ca9-491d-9171-5e1378cef08b.png)
+
+1.) Dataset 1 Columns(store_area, items_available,daily_customer_count,store_sales)
+
+![image](https://user-images.githubusercontent.com/99941484/183843974-564bdf22-722a-47bb-bb3b-a540e9a1ee55.png)
+
+2.) Dataset 2 Columns(store_area, items_available, store_sales)
+
+![image](https://user-images.githubusercontent.com/99941484/183844548-4784b193-9fe3-4038-ac20-4d590ed09808.png)
+
+3.) Dataset 3 Columns(store_area, store_sales)
+
+![image](https://user-images.githubusercontent.com/99941484/183844878-9dcc0032-8d9e-4fd8-800a-81dd714887d5.png)
+
+4.) Dataset 4 Columns(items_available, store_sales)
+
+![image](https://user-images.githubusercontent.com/99941484/183845282-ffc8d77a-ef95-433f-a185-b748b2b80d08.png)
+
+5.) Dataset 5 Columns(daily_customer_count, store_sales)
+
+![image](https://user-images.githubusercontent.com/99941484/183845576-102acef3-371d-4e3e-be99-1ab1d5b59a4c.png)
+
 
 ![image](https://user-images.githubusercontent.com/99941484/183305907-3808debc-42c6-4291-9ffb-c7d2571a522f.png)
 
@@ -95,9 +116,9 @@ MAE is the mean of the absolute error values (actuals – predictions).
 If one wants to ignore the outlier values to a certain degree, MAE is the choice since it reduces the penalty of the outliers significantly with the removal of the square terms.
 
 ## Current Accuracy Score 
-We chose Liner regression because the current accuracy score is 75% which is way higher than logistic regression. 
+We chose Liner regression because the current accuracy score for all datasets is ranging from 72 to 75 percent which is way higher than logistic regression. 
 model: LinearRegression()
-MAPE: 25.843888874432857
+As per above screenshots the MAPE for all 5 datasets after removal of outliers was the least for Linear regression ranging from 25 to 28 percent 
 
 ## Dashboard proposal 
 
