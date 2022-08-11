@@ -120,6 +120,21 @@ We chose Liner regression because the current accuracy score for all datasets is
 model: LinearRegression()
 As per above screenshots the MAPE for all 5 datasets after removal of outliers was the least for Linear regression ranging from 25 to 28 percent 
 
+## Adavantages and Disadvantages of Machine Learning 
+
+### Advanatages 
+
+* Linear regression performs exceptionally well for linearly separable data
+* Easier to implement, interpret and efficient to train
+* It handles overfitting pretty well using dimensionally reduction techniques, regularization, and cross-validation
+* One more advantage is the extrapolation beyond a specific data set
+
+### Disadvantages
+
+* The assumption of linearity between dependent and independent variable
+* It is often quite prone to noise and overfitting
+* Linear regression is quite sensitive to outliers
+* It is prone to multicollinearity
 ## Dashboard proposal 
 
 * Tableau generated 
